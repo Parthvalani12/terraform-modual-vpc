@@ -7,12 +7,12 @@ vpc_config = {
 cidr_block = "10.0.0.0/16"
 name = "my-test-vpc"
 }
-subnet_config = {
-#key={cidr, az}
-public_subnet = {
-cidr_block = "10.0.0.0/24"
-az = "us-east-1a"
-public = true
+  subnet_config = {
+   #key={cidr, az}
+   public_subnet = {
+   cidr_block = "10.0.0.0/24"
+   az = "us-east-1a"
+   public = true
 }
 
     public_subnet-2 = {
